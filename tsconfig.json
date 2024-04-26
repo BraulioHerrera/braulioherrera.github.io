@@ -17,7 +17,15 @@
     "jsx": "react-jsx",
     "paths": {
       "@routes": ["./src/routes"],
-      "@routes/*": ["./src/routes/*"]
+      "@routes/*": ["./src/routes/*"],
+      "@layouts": ["./src/layouts"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@api": ["./src/api"],
+      "@api/*": ["./src/api/*"],
+      "@types": ["./src/types"],
+      "@types/*": ["./src/types/*"],
+      "@components": ["./src/components"],
+      "@components/*": ["./src/components/*"]
     }
   },
   "include": ["src"]
