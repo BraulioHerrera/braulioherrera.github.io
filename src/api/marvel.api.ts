@@ -4,7 +4,7 @@ import { TMarvelCharactersResponse } from '@types';
 import { QueryFunctionContext } from 'react-query';
 
 export const marvelApiClient = axios.create({
-  baseURL: 'http://gateway.marvel.com/v1/public',
+  baseURL: 'https://gateway.marvel.com/v1/public',
   headers: {
     'Content-type': 'application/json',
     Accept: '*/*',
